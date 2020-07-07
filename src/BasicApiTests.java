@@ -30,7 +30,7 @@ public class BasicApiTests {
 	                .then().assertThat().log().all().statusCode(200).body("msg", equalTo("Address successfully updated"));
 	    
 	    
-	  
+	   String str= "Testing";
 	    
 
 	}
